@@ -26,6 +26,7 @@ public class Excer2 {
         Map<Integer, String> newBankAccount = new HashMap<>(bankAccount);
 
         System.out.println("New collection size: " + newBankAccount.size());
+        System.out.println(newBankAccount);
     }
 
 }
