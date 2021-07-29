@@ -19,6 +19,14 @@ package com.jdlovin.Day4;
 
 9. Write a Java program to copy one array list into another.
 
+10. Write a Java program to shuffle elements in a array list.
+
+11. Write a Java program to reverse elements in a array list.
+
+12. Write a Java program to extract a portion of a array list.
+
+13. Write a Java program of swap two elements in an array list.
+
  */
 
 import java.util.*;
@@ -95,9 +103,28 @@ public class Excer1 {
         theseNums.addAll(squad);
         System.out.println(theseNums);
 
+        //Part 10
+        System.out.println("Part 10");
 
+        System.out.println(theseNums);
+        Collections.shuffle(theseNums);
+        System.out.println(theseNums);
 
+        //Part 11
+        System.out.println("Part 11");
+        Collections.reverse(theseNums);
+        System.out.println(theseNums);
 
+        //Part 12
+        System.out.println("Part 12");
+        List<Integer> subListNums = theseNums.subList(0,2);
+        System.out.println(subListNums);
+
+        //Part 13
+        System.out.println("Part 13");
+        System.out.println(theseNums);
+        Collections.swap(theseNums,0,2);
+        System.out.println(theseNums);
 
     }
 }
