@@ -1,4 +1,4 @@
-package com.jdlovin;
+package com.jdlovin.Day1;
 
 class Album {
     public String artist;

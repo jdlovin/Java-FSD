@@ -1,4 +1,4 @@
-package com.jdlovin;
+package com.jdlovin.Day1;
 
 public class FizzBuzz {
     public static void main(String[] args) {

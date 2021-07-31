@@ -1,4 +1,4 @@
-package com.jdlovin;
+package com.jdlovin.Day1;
 
 public class Demo2 {
     public static void main(String[] args) {
