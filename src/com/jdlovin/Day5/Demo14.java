@@ -1,5 +1,7 @@
 package com.jdlovin.Day5;
 
+import java.util.function.Consumer;
+
 class Company {
     int item;
     boolean flag = false;
@@ -47,6 +49,5 @@ class Producer extends Thread {
 
 public class Demo14 {
     public static void main(String[] args) {
-
     }
 }
