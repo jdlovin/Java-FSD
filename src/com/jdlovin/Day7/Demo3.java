@@ -22,7 +22,7 @@ public class Demo3 {
 
         Calculator2<Boolean> cal3 = new Calculator2<>();
         cal3.areEqual(true, true);
-        
+
 
     }
 }
