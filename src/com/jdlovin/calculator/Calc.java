@@ -90,7 +90,7 @@ public class Calc {
                     Scanner emiScanner3 = new Scanner(System.in);
                     double emiN = emiScanner3.nextInt();
                     System.out.println("EMI calculation");
-                    System.out.println(emiP * (emiR*100) * ((1 + emiR) * emiN)/(((1+emiR)*emiN) -1));
+                    System.out.println(emiP * (emiR/100) * ((1 + emiR) * emiN)/(((1+emiR)*emiN) -1));
                     break;
                 case 6:
                     //Quit?
